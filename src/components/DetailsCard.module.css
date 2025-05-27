@@ -1,0 +1,43 @@
+.imageIcon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-8);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.description {
+  color: var(--color-gray-200);
+}
+.detailscard,
+.highlightContent {
+  display: flex;
+  justify-content: flex-start;
+}
+.highlightContent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2);
+  min-width: 273px;
+}
+.detailscard {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-20);
+  text-align: left;
+  font-size: var(--font-size-18);
+  color: var(--Dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .detailscard {
+    flex-wrap: wrap;
+  }
+}

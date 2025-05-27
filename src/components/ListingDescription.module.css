@@ -1,0 +1,80 @@
+.aboutThisHome {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.welcomeToBrightwoods {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.comeBeOur {
+  margin: 0;
+}
+.welcomeToBrightwoodsContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+.button {
+  position: relative;
+  color: var(--Accent);
+  text-align: center;
+}
+.readMoreButton {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8);
+  min-width: 500px;
+}
+.descriptionContent,
+.listingDescription,
+.listingHighlights,
+.readMoreButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listingHighlights {
+  width: 500px;
+  flex-direction: column;
+  gap: var(--gap-24);
+}
+.descriptionContent,
+.listingDescription {
+  align-self: stretch;
+}
+.descriptionContent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-40);
+  font-size: var(--font-size-16);
+}
+.listingDescription {
+  border-bottom: 1px solid var(--Light-grey-border);
+  flex-direction: column;
+  padding: 0 0 var(--padding-22);
+  gap: var(--gap-20);
+  text-align: left;
+  font-size: var(--font-size-24);
+  color: var(--Dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 800px) {
+  .readMoreButton {
+    min-width: 100%;
+  }
+  .descriptionContent {
+    gap: var(--gap-20);
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutThisHome {
+    font-size: var(--font-size-19);
+  }
+}

@@ -1,0 +1,57 @@
+.label {
+  align-self: stretch;
+  position: relative;
+}
+.socialLoginImageIcon {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.socialLogin,
+.text {
+  display: flex;
+  align-items: center;
+}
+.text {
+  width: 128.8px;
+  position: relative;
+  justify-content: center;
+}
+.socialLogin {
+  flex: 1;
+  border-radius: var(--br-8);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 25px;
+  box-sizing: border-box;
+  gap: var(--gap-18);
+  min-width: 125px;
+}
+.text1 {
+  position: relative;
+}
+.socialLoginContainer,
+.socialMediaLogin {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialLoginContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-14);
+  text-align: center;
+  color: var(--Light-Text);
+}
+.socialMediaLogin {
+  flex-direction: column;
+  gap: var(--gap-10);
+  text-align: left;
+  font-size: var(--font-size-16);
+  color: var(--Dark);
+  font-family: var(--font-archivo);
+}

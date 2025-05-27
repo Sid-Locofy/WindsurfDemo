@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Color */
+  --color-saddlebrown: #975b00;
+  --color-lightcyan: #defff9;
+  --color-whitesmoke-300: #ececec;
+  --color-whitesmoke-200: #f4f4f4;
+  --color-whitesmoke-100: #f8f8f8;
+  --color-gray-300: rgba(0, 0, 0, 0.85);
+  --color-gray-200: #7a7a7a;
+  --color-gray-100: #fafafa;
+  --color-black: #000;
+
+  /* Gap */
+  --gap-18: 18px;
+  --gap-36: 36px;
+  --gap-16: 16px;
+  --gap-32: 32px;
+  --gap-19: 19px;
+  --gap-40: 40px;
+  --gap-3: 3px;
+  --gap-6: 6px;
+  --gap-15: 15px;
+  --gap-28: 28px;
+  --gap-10: 10px;
+  --gap-5: 5px;
+  --gap-4: 4px;
+  --gap-14: 14px;
+  --gap-2: 2px;
+  --gap-12: 12px;
+  --gap-8: 8px;
+  --gap-24: 24px;
+  --gap-30: 30px;
+  --gap-20: 20px;
+
+  /* Padding */
+  --padding-26: 26px;
+  --padding-40: 40px;
+  --padding-15: 15px;
+  --padding-2: 2px;
+  --padding-22: 22px;
+  --padding-8: 8px;
+  --padding-19: 19px;
+  --padding-4: 4px;
+  --padding-10: 10px;
+  --padding-6: 6px;
+  --padding-16: 16px;
+  --padding-11: 11px;
+  --padding-30: 30px;
+  --padding-12: 12px;
+  --padding-20: 20px;
+  --padding-14: 14px;
+
+  /* BorderRadius */
+  --br-16: 16px;
+  --br-4: 4px;
+  --br-12: 12px;
+  --br-8: 8px;
+  --br-10: 10px;
+
+  /* Font */
+  --font-roboto: Roboto;
+  --font-archivo: Archivo;
+
+  /* FontSize */
+  --font-size-26: 26px;
+  --font-size-10: 10px;
+  --font-size-19: 19px;
+  --font-size-18: 18px;
+  --font-size-22: 22px;
+  --font-size-36: 36px;
+  --font-size-12: 12px;
+  --font-size-16: 16px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-14: 14px;
+
+  /* Figma Variables */
+
+  /* Color */
+  --Light-Text: #787878;
+  --Dark: #171e1d;
+  --Accent: #00c29f;
+  --Accent1: #00c29f;
+  --Light-grey-border: #e8ecf2;
+  --Light-grey-border1: #e8ecf2;
+  --White: #fff;
+}

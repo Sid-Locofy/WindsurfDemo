@@ -1,0 +1,67 @@
+.formTitle {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.content {
+  width: 100%;
+  border-radius: var(--br-16);
+  background-color: var(--White);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-40);
+  box-sizing: border-box;
+  gap: var(--gap-24);
+  max-width: 600px;
+}
+.content,
+.main,
+.signInPage {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  align-self: stretch;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20);
+  box-sizing: border-box;
+  background-image: url(/public/main@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 800px;
+  text-align: left;
+  font-size: var(--font-size-26);
+  color: var(--Dark);
+  font-family: var(--font-archivo);
+}
+.signInPage {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.signInPage:hover {
+  background: linear-gradient(var(--White), var(--White)), #87550a;
+}
+@media screen and (max-width: 800px) {
+  .content {
+    padding-top: var(--padding-26);
+    padding-bottom: var(--padding-26);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .formTitle {
+    font-size: 21px;
+  }
+}

@@ -1,0 +1,135 @@
+.listing01ImageIcon {
+  align-self: stretch;
+  height: 300px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+.superhostIcon {
+  width: 6.7px;
+  height: 10px;
+}
+.superhost,
+.superhostIcon {
+  position: relative;
+}
+.heartIcon,
+.superhostTag {
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+}
+.superhostTag {
+  left: 10px;
+  border-radius: 13px;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6);
+  gap: var(--gap-2);
+  z-index: 1;
+}
+.heartIcon {
+  width: 30px;
+  height: 30px;
+  right: 10px;
+  object-fit: cover;
+  z-index: 2;
+}
+.listingSubtitle,
+.listingTitle {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listingSubtitle {
+  color: var(--Light-Text);
+}
+.listingCont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4);
+}
+.rating,
+.starIcon {
+  position: relative;
+}
+.starIcon {
+  height: 13px;
+  width: 13px;
+}
+.listingInfo,
+.ratingCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ratingCont {
+  width: 42px;
+  gap: var(--gap-5);
+  font-size: var(--font-size-14);
+}
+.listingInfo {
+  align-self: stretch;
+  gap: var(--gap-4);
+}
+.night {
+  position: relative;
+  color: var(--Light-Text);
+}
+.bottomContainer,
+.pricePerNight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pricePerNight {
+  flex: 1;
+  gap: var(--gap-2);
+}
+.bottomContainer {
+  align-self: stretch;
+  height: 28px;
+}
+.itemDetails,
+.listingItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemDetails {
+  align-self: stretch;
+  padding: var(--padding-16);
+  gap: var(--gap-14);
+  z-index: 3;
+  font-size: var(--font-size-16);
+  color: var(--Dark);
+}
+.listingItem {
+  height: 408px;
+  flex: 1;
+  border-radius: var(--br-10);
+  background-color: var(--White);
+  border: 1px solid var(--Light-grey-border);
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  min-width: 288px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-12);
+  color: var(--Accent1);
+  font-family: var(--font-archivo);
+}
